@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: spring-boot-ai-jdbc-chat-memory-postgres
+
+  # Datasource Configuration
+  datasource:
+    url: jdbc:postgresql://localhost:5432/springai
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
+    driver-class-name: org.postgresql.Driver
+
+  # AI configurations
+  ai:
+    openai:
+      api-key: ${GEMINI_API_KEY}
+      base-url: https://generativelanguage.googleapis.com/v1beta/openai
+      chat:
+        completions-path: /chat/completions
+        options:
+          model: gemini-2.0-flash-exp
+
+# Logging Configuration
+logging:
+  level:
+    org.springframework.jdbc.core.JdbcTemplate: TRACE
+    org.springframework.jdbc.core.StatementCreatorUtils: TRACE

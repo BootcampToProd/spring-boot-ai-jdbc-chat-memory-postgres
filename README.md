@@ -8,6 +8,9 @@ This repository demonstrates how to use **Spring AI's JDBC Chat Memory** with **
 📖 **Dive Deeper**: For a complete walkthrough and detailed explanation, read our blog:  
 👉 [Spring AI JDBC Chat Memory: Building Persistent Conversational Applications with PostgreSQL and MariaDB](https://bootcamptoprod.com/spring-ai-jdbc-chat-memory-guide/)
 
+🎥 **Visual Learning**: Prefer video tutorials? Watch our step-by-step implementation guide on YouTube.<br>
+👉 [Spring AI JDBC Chat Memory with PostgreSQL: Building Persistent Conversational Applications](https://youtu.be/dQsoOn4CsWw)
+
 ---
 
 ## 📦 Environment Variables
